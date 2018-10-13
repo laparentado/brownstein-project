@@ -1,0 +1,97 @@
+nav{
+    background-color:$nav-color;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: red;
+    background-image:url(../images/hover.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+@media all and (max-width: 759px){
+    nav a:hover{
+        padding: 5px;
+    }
+    .nav-logo{
+        margin-left: 47%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    li {
+        align-self: center;
+        justify-self: center;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 899px){
+    .nav-logo{
+        margin-left: 25px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    li {
+        float: left;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+@media all and (min-width: 900px){
+    .nav-logo{
+        margin-left: 50px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        color: $text-color;
+        text-decoration: none;
+    }
+}

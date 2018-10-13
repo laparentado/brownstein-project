@@ -1,0 +1,180 @@
+@media all and (max-width: 480px){
+    .columns{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 50px;
+        grid-row-gap: 5px;
+        width: 100%;
+        text-align: center;
+        align-items: bottom;
+    }
+
+    .foundation-image{
+        background-image: url(../images/image5.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .foundation-text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .farm-image{
+        background-image: url(../images/image6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .farm-text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .events-image{
+        background-image: url(../images/image7.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    } 
+
+    .events-text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+}
+@media all and (min-width: 481px) and (max-width: 768px){
+    .columns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 50px;
+        grid-column-gap: 5px;
+        width: 100%;
+        text-align: center;
+        align-items: bottom;
+    }
+
+    .foundation-image{
+        background-image: url(../images/image5.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .foundation-text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .farm-image{
+        background-image: url(../images/image6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .farm-text{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .events-image{
+        background-image: url(../images/image7.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    } 
+
+    .events-text{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+
+@media all and (min-width: 769px){
+    .columns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 50px;
+        grid-column-gap: 5px;
+        width: 100%;
+        text-align: center;
+        align-items: bottom;
+    }
+
+
+    .foundation-image{
+        background-image: url(../images/image5.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .foundation-text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .farm-image{
+        background-image: url(../images/image6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .farm-text{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .events-image{
+        background-image: url(../images/image7.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    } 
+
+    .events-text{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+

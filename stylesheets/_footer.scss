@@ -1,0 +1,135 @@
+@media all and (max-width: 480px){
+    footer{
+        width: 100%;
+        background-color: $text-color;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .footer-logo{
+        margin-top: 10px;
+        grid-row-start:1;
+        grid-row-end:2;
+        background-image: url(../images/sm-logo.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .footer-location{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: black;
+    }
+    .footer-subscribe{
+        grid-row-start:3;
+        grid-row-end:4;
+        color: black;
+    }
+    .mail{
+        background-color: black;
+        font-size: 12px;
+        color: $text-color;
+        width: 100px;
+        height: 25px;
+    }
+    .footer-social{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    footer{
+        width: 100%;
+        background-color: $text-color;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .footer-logo{
+        margin-top: 10px;
+        grid-column-start:1;
+        grid-column-end:2;
+        background-image: url(../images/sm-logo.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .footer-location{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        color: black;
+    }
+    .footer-subscribe{
+        grid-column-start:3;
+        grid-column-end:4;
+        color: black;
+    }
+    .mail{
+        background-color: black;
+        font-size: 12px;
+        color: $text-color;
+        width: 100px;
+        height: 25px;
+    }
+    .footer-social{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+}
+
+@media all and (min-width: 769px){
+    footer{
+        width: 100%;
+        background-color: $text-color;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .footer-logo{
+        margin-top: 10px;
+        grid-column-start:1;
+        grid-column-end:2;
+        background-image: url(../images/sm-logo.png);
+        background-size: 100px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .footer-location{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        color: black;
+    }
+    .footer-subscribe{
+        grid-column-start:3;
+        grid-column-end:4;
+        color: black;
+    }
+    .mail{
+        background-color: black;
+        font-size: 12px;
+        color: $text-color;
+        width: 100px;
+        height: 25px;
+    }
+    .footer-social{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+}
